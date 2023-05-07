@@ -1,0 +1,446 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+html,
+body {
+    font-family: Avenir;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: auto;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 0px;
+}
+
+*::-moz-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 0px;
+}
+
+/* Highlight Text */
+::-moz-selection {
+    /* Code for Firefox */
+    color: #fff;
+    background: #000;
+}
+
+::selection {
+    color: #fff;
+    background: #000;
+}
+
+/* <!-- BeadBug --> */
+.BeadBug{
+    padding: 30px 0px;
+    background-color: #fff;
+    border-bottom: 1px solid #E3E3E3;
+}
+.BeadBug .beadcrum p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+/* <!-- Divider --> */
+.Divider{
+    padding: 70px 0px;
+}
+.Divider .plus h4{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.Divider .plus p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27px;
+}
+/* <!-- BeadBug Ends --> */
+
+
+/* <!-- Propety Ends --> */
+.Propety {
+    padding: 0 0 80px 0px;
+}
+.Propety .control {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px;
+}
+.Propety .control img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.Propety .control .cloat{
+    padding: 40px;
+    background-color: #fff;
+}
+@media (max-width:520px) {
+    .Propety .control .cloat{
+        padding: 30px !important;
+        background-color: #fff;
+    }
+}
+@media (max-width:768px) {
+    .Propety button{
+        width: auto !important;
+    }
+}
+.Propety .control .cloat h4{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.Propety .control .cloat p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.Propety .control .cloat a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+.Propety .control .cloat a:hover{
+    text-decoration: underline;
+}
+.Propety button{
+    margin-top: 50px !important;
+    padding: 10px 20px 10px 20px;
+    display: block;
+    margin: auto;
+    width: 30%;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #333333;
+    background-color: #fff;
+}
+.Propety button:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* <!-- Propety Ends --> */
+
+/* <!-- Newsletter --> */
+.Newsletter{
+    padding: 50px 0px 0px 0px;
+    background: #B79579;
+}
+.Newsletter h4{
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+}
+.Newsletter p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+.Newsletter input {
+    width: 100%;
+    padding: 23px 110px 23px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #B7B7B7;
+}
+
+.Newsletter input::placeholder {
+    color: #B7B7B7;
+}
+
+.Newsletter input:hover {
+    color: #000;
+}
+
+.Newsletter input:focus {
+    outline: none;
+}
+
+.Newsletter .dif {
+    background-color: #C73538;
+    position: relative;
+    float: right;
+    top: -60px;
+    width: 130px;
+    padding: 15px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+}
+/* <!-- Newsletter Ends --> */
+
+/* <!-- Footer --> */
+.Footer{
+    background-color: #1E1E1E;
+    padding: 100px 0px 30px 0px;
+}
+.Footer H4{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 300;
+}
+.Footer .help{
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+.Footer p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+.Footer p a:hover{
+    text-decoration: underline;
+}
+.Ending{
+    padding: 20px 0px 10px 0;
+    background-color: #fff;
+}
+.Ending p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+@media (max-width:768px) {
+    .Footer H4{
+        font-size: 50px;
+       margin-bottom: 30px;
+       text-align: center;
+    }
+    .Footer img{
+        display: block;
+        margin: auto;
+        width: 30px;
+    }
+    .Ending img{
+        display: block;
+        margin: auto;
+    }
+    .Footer .help{
+        text-align: center;
+    }
+    .Footer p {
+        text-align: center !important;
+    }
+    .Ending img{
+        width: 90px;
+    }
+}
+/* <!-- Footer Ends --> */
+
+/* Tower */
+.Tower{
+    padding: 100px 0px;
+    background-color: #fff;
+}
+@media (max-width:768px) {
+    .Tower{
+        padding: 50px 0px;
+        background-color: #fff;
+    }
+    .Tower .kilo{
+        margin-bottom: 50px !important;
+    }
+    .Third .right button {
+      width:auto !important;
+    }
+    .Icon button {
+        width:auto !important;
+      }
+}
+.Tower .contune{
+    margin-top: 40px;
+}
+.Tower .contune h4{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.Tower .contune p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.Tower .clear{
+    background-color: #F1F1F1;
+    padding: 20px 0px 40px 40px;
+}
+.Tower .clear .carousel-inner{
+    margin-top: -60px !important;
+}
+/* Tower Ends */
+
+/* Last  */
+.last{
+    padding: 20px 0px 50px 0;
+}
+.last h4{
+    padding: 30px 0px 0 25px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.last p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 0px 0px 0 25px;
+}
+.Third{
+    padding: 20px 0px;
+}
+.Third h4{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.Third p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 30px 0px 0 0px;
+}
+.Third .right button{
+    margin-top: 50px !important;
+    padding: 10px 20px 10px 20px;
+    display: block;
+    margin: auto;
+    width: 30%;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #333333;
+    background-color: #fff;
+}
+.Third .right button:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* Last Ends */
+
+/* Vodie */
+.Vodie{
+    padding: 100px 0px;
+}
+.Vodie h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.Vodie iframe{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+/* Vodie Ends */
+
+/* Icon */
+.Icon{
+    padding: 80px 0px;
+    background-color: #F1F1F1;
+}
+.Icon .ion {
+    margin-bottom: 25px;
+}
+.Icon .ion h4{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.Icon .ion p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.Icon button{
+    margin-top: 50px !important;
+    padding: 10px 20px 10px 20px;
+    display: block;
+    margin: auto;
+    width: 30%;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #333333;
+    background-color: #fff;
+}
+.Icon button:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* Icon ENDS */
+
+/* Zumaira */
+.Zumaira{
+    padding: 80px 0px;
+}
+.Zumaira h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+.Zumaira img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.Zumaira .amin{
+    background-color: #41D08C;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+}
+.Zumaira .top{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.Zumaira p{
+    font-size: 14.5px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.Zumaira button{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #333333;
+    background-color: #fff;
+    font-size: 13px;
+}
+.Zumaira .all{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+/* Zumaira Ends */
